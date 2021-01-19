@@ -25,11 +25,11 @@ class LibraryTest {
     void borrowBook() {
         Library library = new Library();
         Borrower oma = new Borrower("Oma", "Salifu", "junior student");
-        Borrower david = new Borrower("David", "Odohi", "Teacher");
         Borrower ifeanyi = new Borrower("Ifeanyi", "Ibe", "Senior Student");
         Borrower emmanuel = new Borrower("Emmanuel", "Ogheneovo", "teacher");
         Borrower jeniffer = new Borrower("Jeniffer", "Ezeobi", "senior student");
         Borrower ome = new Borrower("Omenebele", "Ananenu", "junior Student");
+        Borrower david = new Borrower("David", "Odohi", "Teacher");
         Borrower okoro = new Borrower("Okoro", "Abbey", "Senior Student");
         Book book1 = new Book("The Renaisance", "James Wallace", "1985");
         library.addBook(book1, 3);
